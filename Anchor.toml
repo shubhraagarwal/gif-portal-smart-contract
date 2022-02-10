@@ -1,0 +1,12 @@
+[programs.devnet]
+myepicproject = "CaJquUUzNc8nNjGLrN9G2ZnkbHVyinuTctfTs1WSYPro"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/vintner/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
